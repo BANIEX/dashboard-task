@@ -1,45 +1,65 @@
 .main_page_first_layer{
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   display: flex;
   justify-content: space-between;
 
 }
 
 .main_page_first_box_container{
-  border: 3px solid green;
+  /* border: 3px solid green; */
   width: 31%;
   height: 140px;
   padding: 10px;
   background-color: white;
 }
 .main_page_first_box{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 100%;
   display: flex;
 
+
 }
+
+
 .main_page_first_box_left{
   width: 70%;
-  border: 2px solid blue
+  /* border: 2px solid blue; */
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
 
 }
 .main_page_first_box_right{
 
   width: 30%;
-  border: 2px solid blue
+  /* border: 2px solid blue; */
+  margin-right: 40px;
 
 }
 
+.total_sales_text{
+  color: gray;
+  font-size: small;
+}
+
+.percent{
+  color: green;
+  background-color: rgb(150, 181, 150);
+  border-radius: 3px;
+  padding: .3125rem;
+  font-size: 12px;
+}
 
 
-
-
-
-
-
-
-
-
+.total_sales_amount{
+  font-size: large;
+  font-weight: 900;
+}
+.from_yesterday{
+  font-size: smaller;
+}
 
 .main_page_line_chart{
   width: 100%;

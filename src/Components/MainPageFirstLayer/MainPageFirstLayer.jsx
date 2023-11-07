@@ -18,11 +18,18 @@ const MainPageFirstLayer = () => {
         borderColor: "rgba(75,192,192,1)",
         // borderColor: ["#03A9F5", "orange"],
         tension: 0.4,
+        pointStyle: "hidden"
       },
     ],
   };
 
  const options = {
+  radius: 0,
+  elements: {
+    point: {
+      radius: 0,
+    }
+  },
   scales: {
     x: {
       grid: {
@@ -38,6 +45,12 @@ const MainPageFirstLayer = () => {
 }
 
 const CHARTOPTIONS = {
+  radius: 0,
+  // elements: {
+  //   point: {
+  //     radius: 0,
+  //   },
+  // },
   responsive: true,
   plugins: {
     legend: {
@@ -83,11 +96,11 @@ const CHARTOPTIONS = {
       <div className="main_page_first_box_container">
         <div className="main_page_first_box">
           <div className="main_page_first_box_left">
-            <div>Total Sales</div>
-            <div>185,700</div>
+            <div className="total_sales_text">Total Sales</div>
+            <div className="total_sales_amount">185,700</div>
             <div>
-              <span>4.8%</span>
-              <span>from yesterday</span>
+              <span className="percent">4.8%</span>
+              <span className="from_yesterday"> from yesterday</span>
             </div>
           </div>
           <div className="main_page_first_box_right">
@@ -102,11 +115,11 @@ const CHARTOPTIONS = {
       <div className="main_page_first_box_container">
         <div className="main_page_first_box">
           <div className="main_page_first_box_left">
-            <div>Total Sales</div>
-            <div>185,700</div>
+            <div className="total_sales_text">Total Sales</div>
+            <div className="total_sales_amount">185,700</div>
             <div>
-              <span>4.8%</span>
-              <span>from yesterday</span>
+              <span className="percent">4.8%</span>
+              <span className="from_yesterday"> from yesterday</span>
             </div>
           </div>
           <div className="main_page_first_box_right">
@@ -121,11 +134,11 @@ const CHARTOPTIONS = {
       <div className="main_page_first_box_container">
         <div className="main_page_first_box">
           <div className="main_page_first_box_left">
-            <div>Total Sales</div>
-            <div>185,700</div>
+            <div className="total_sales_text">Total Sales</div>
+            <div className="total_sales_amount">185,700</div>
             <div>
-              <span>4.8%</span>
-              <span>from yesterday</span>
+              <span className="percent">4.8%</span>
+              <span className="from_yesterday"> from yesterday</span>
             </div>
           </div>
           <div className="main_page_first_box_right">

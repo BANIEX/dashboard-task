@@ -7,6 +7,8 @@
 
 .ag-theme-alpine{
   width: 100%;
+  height: 100%;
+  margin: 0 auto;
 
 
 }
@@ -17,15 +19,18 @@
 
 .table_container_top{
   display: flex;
-  width: 100%;
+  width: 62.5em;
   justify-content: space-between;
-  border: 2px solid blue;
+  align-items: center;
+  /* border: 2px solid blue; */
   padding: 0 90px;
+  height: 50px;
+  background-color: white;
 }
 
 .table_container_bottom{
   width: 100%;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
 }
 

@@ -131,8 +131,8 @@ const MainPageThirdLayer = () => {
           <div>Recent Orders</div>
           <div>Export CSV</div>
         </div>
-        <div className="table_container_botton">
-          <div className="ag-theme-alpine" style={{ width: 1200, height: 700 }}>
+        <div className="table_container_bottom">
+          <div className="ag-theme-alpine" style={{ width: 1000, height: 700 }}>
             <AgGridReact
               ref={gridRef}
               rowData={rowData}
