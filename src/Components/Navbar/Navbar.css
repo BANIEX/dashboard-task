@@ -1,0 +1,62 @@
+.navbar{
+  width: 100%;
+  border: 2px solid red;
+  display: flex;
+  height: 65px;
+}
+
+.navbar_left{
+  width: 13%;
+  border: 2px solid green;
+
+}
+.navbar_right{
+  width: 87%;
+  border: 2px solid yellow;
+  display: flex;
+}
+
+.navbar_right_left{
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  width: 80%;
+  
+  border: 2px solid black;
+}
+
+.navbar_right_right{
+  display: flex;
+  align-items: center;
+
+}
+
+.large-bell-icon{
+  font-size: 32px;
+  padding: 10px;
+  border: 2px solid red;
+}
+
+.navbar_user_info{
+  display: flex;
+}
+
+.rounded_image{
+  border-radius: 50%; /* Make the image round */
+  width: 50px; /* Adjust the width and height as needed */
+  height: 50px;
+  padding: 3px;
+}
+
+.navbar_user_info_names{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.navbar_user_info_name_top{
+  color: black;
+}
+.navbar_user_info_name_bottom{
+  color: gray;
+}
