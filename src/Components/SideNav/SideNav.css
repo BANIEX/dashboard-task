@@ -1,0 +1,22 @@
+.side_nav{
+  width: 13%;
+  height: 80vh;
+  border: 2px solid black;
+}
+
+.side_nav_top{
+  width: 100%;
+}
+.side_nav_top_content{
+  width: 80%;
+  border: 2px solid red;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.side_nav_element{
+  height: 40px;
+  border: 2px solid yellow;
+  margin-left: 19px;
+  padding: 5px;
+}

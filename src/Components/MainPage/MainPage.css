@@ -1,0 +1,10 @@
+.main_page{
+  background-color: gray;
+  border: 2px solid black;
+  width: 100%;
+  padding: 20px;
+}
+
+.main_page > div{
+  margin-top: 20px;
+}
